@@ -31,16 +31,16 @@ namespace JosueWebApiTest.Controllers
         }
 
         // GET api/user/5
-        public User Get(int id)
+        public IHttpActionResult Get(int id)
         {
             User user = _userContext.FindUserById(id);
 
             if (user == null)
             {
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                return BadRequest("No se ha registrado aun un usuario con Id: " + id.ToString());
             }
 
-            return user;
+            return Ok(new { results = user });
         }
 
         // POST api/user
