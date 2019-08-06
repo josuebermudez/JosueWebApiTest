@@ -21,7 +21,7 @@ namespace JosueWebApiTest.Controllers
         // GET api/user
         public IHttpActionResult Get()
         {
-            var userList = _userContext.Users.ToList();
+            var userList = _userContext.Users;
             if (userList != null)
             {
                 return Ok(new { results = userList });
