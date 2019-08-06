@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JosueWebApiTest", "JosueWebApiTest\JosueWebApiTest.csproj", "{9CD57AB2-C14B-4BD9-815B-8EBCBB19490B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{0E0C5144-FB4D-42D8-8C95-75F220A38E42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CD57AB2-C14B-4BD9-815B-8EBCBB19490B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD57AB2-C14B-4BD9-815B-8EBCBB19490B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD57AB2-C14B-4BD9-815B-8EBCBB19490B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD57AB2-C14B-4BD9-815B-8EBCBB19490B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E0C5144-FB4D-42D8-8C95-75F220A38E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0C5144-FB4D-42D8-8C95-75F220A38E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0C5144-FB4D-42D8-8C95-75F220A38E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0C5144-FB4D-42D8-8C95-75F220A38E42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70E5DB54-9843-4DBC-9E5E-6C77839D4790}
+	EndGlobalSection
+EndGlobal
